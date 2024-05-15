@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+header img {
+    display: block;
+    margin: 0 auto;
+    height: 80px;
+}
+header h1 {
+    margin: 10px 0 0 0;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.container {
+    padding: 20px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.team-member img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.container {
+    padding: 20px;
+}
+.benefits {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.benefit-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.benefit-box h3 {
+    margin: 15px 0 10px 0;
+}
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.feature-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.feature-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.feature-box h3 {
+    margin: 15px 0 10px 0;
+}
+.back-button {
+    display: block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+.social-media img {
+    height: 40px;
+    width: 40px;
+}
+.back-button {
+    display: block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.back-button:hover {
+    background-color: #45a049;
+}
